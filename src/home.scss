@@ -1,0 +1,52 @@
+.bg-top-primary{
+	
+
+}
+.p{
+	padding:0;
+	margin:0;
+}
+.flex_pic{
+	display:flex;
+	justify-content:center;
+	overflow:hidden;
+}
+.flexd_pic{
+	display: flex;
+	padding:20px;
+	overflow-x:auto;
+	height:400px;
+	overflow-y:hidden;
+	box-sizing: border-box;
+	&::-webkit-scrollbar{
+		width:0;
+	}
+  }
+ .title_desc{
+ 	height:100px;
+ }
+.padding{
+	padding:10px;
+	margin:10px;
+	border:0.5px solid black;
+}
+.home_pic0{
+    object-fit: cover;
+	height:300px;
+}
+.btn-left{
+	position:absolute;
+	left:0;
+	margin-top:150px;
+}
+.btn-right{
+	position:absolute;
+	right:0;
+	margin-top:150px;
+}
+.home_picd{
+	padding:10px;
+	width:250px;
+	object-fit:cover;
+	height:240px;
+}

@@ -1,0 +1,44 @@
+.m-t-1{
+	margin-top: 40px;
+}
+.block{
+	display:block;
+}
+.textarea{
+	resize: none;
+	width:400px;
+	height:250px;
+	overflow:auto;
+
+}
+
+.submit_{
+	margin-top: 10px;
+}
+.myimage{
+  padding: 10px;
+  width:200px;
+  height:200px;
+  border-radius:100px;
+}
+
+.file{
+	margin-top: 50px;
+	display: none;
+}
+.imageupload{
+  display:flex;
+  justify-content:center;
+}
+.myfile{
+   display: none;
+}
+@media only screen and (max-width: 767px){
+.imageupload{
+  display:flex;
+  justify-content:end;
+}
+._padding{
+	margin-left:40px;
+}
+}

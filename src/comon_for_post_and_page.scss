@@ -1,0 +1,50 @@
+.select{
+	margin-left:10px;
+}
+.selection{
+	display: flex;
+}
+.selectall{
+	display: flex;
+	padding:20px;
+	font-weight:bold;
+}
+.btn_custom_{
+	user-select:none;
+	margin-top: -10px;
+	width:40px;
+	height:40px;
+}
+.create{
+	margin-left:20px;
+	margin-top: -7px;
+}
+.selection{
+	display:inline-flex;
+}
+.btn_custom_{
+
+	margin-left:-40px;
+}
+._btn_custom_{
+    margin-top:-9px
+}
+.selectallcheckbox{
+  margin:6px;	
+}
+.custom_form{
+	position:absolute;
+	right:0px;
+	// top:75px;
+}
+.btn-custom{
+	margin-right:50px;
+}
+@media only screen and (max-width: 758px){
+
+.custom_form{
+	left:15px;
+	margin-top:-70px;
+	padding:10px;
+}
+}

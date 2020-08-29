@@ -1,0 +1,42 @@
+.center{
+	margin-top: 50px;
+}
+.title_{
+	width:100%;
+}
+.myfiles{
+	display:none;
+}
+.home_pic1{
+	width:70%;
+	height:400px;
+	object-fit:cover;
+	object-position:50% -20%;
+}
+.content_description{
+	width:100%;
+	height:60vh;
+	resize:none;
+}
+.resize{
+	width:500px;
+	height:300px;
+	object-fit:cover;
+}
+.center_{
+	display: flex;
+	justify-content: center;
+}
+.__btn_{
+	margin: 10px;
+}
+.postion_{
+	position:fixed;
+	right:0px;
+	top:80px;
+}
+@media only screen and (max-width: 767px){
+	.postion_{
+	  position:relative;
+	}
+}

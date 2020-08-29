@@ -1,0 +1,39 @@
+.swrong{
+	padding-top: 50px;
+	width:100%;
+    display: flex;
+	justify-content: center;
+}
+// .blog{
+//     text-decoration:none;
+//     color:black;
+//     width: 100%;
+//     &:hover{
+//         color:black;
+//         font-weight:bold;
+//     }
+// }
+ $width :300px;
+.somthing{
+	padding:20px;
+	width:$width;
+	border-radius: 25px;
+	& > p{
+		 color: white;
+	}
+}
+.tri{
+	color:yellow;
+}
+.login_form{
+	display: flex;
+	justify-content: center;
+	margin-top:50px;
+}
+
+.email{
+	width:$width;
+}
+.password{
+	width:$width;
+}
